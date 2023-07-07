@@ -1,0 +1,14 @@
+POST http://localhost:1488/api/v1/requests
+Content-Type: application/json
+
+{
+  "fromId": "1",
+  "toId": "2",
+  "tokenFromAmount": "0.001",
+  "tokenToAmount": "0.0003"
+}
+
+###
+
+GET http://localhost:1488/api/v1/requests/5f4ca21d-a151-43c4-aa05-e75ca9fa1514
+Content-Type: application/json
